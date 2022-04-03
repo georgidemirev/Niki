@@ -1,0 +1,29 @@
+<tr bgcolor="#fff" style="padding: 3.7%">
+  <td style="padding: 3.7%">
+    <p style="color: #3c3f44; font-family: 'Roboto', sans-serif">
+      Dear {{ name }}, your influ.ai Facebook authorization token will expire on
+      {{ expiry_date }}. In order to protect your data we require you to refresh
+      your Instagram connection every three months. It should take less than a
+      minute - just follow the link below.
+    </p>
+  </td>
+</tr>
+<tr bgcolor="#fff" style="padding: 3.7% 3.7% 3.7% 3.7%">
+  <td style="padding: 3.7% 3.7% 3.7% 3.7%">
+    <a
+      href="{{ baseURL }}/token/update"
+      style="
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+        background-color: #d100ff;
+        color: #fff;
+        padding: 2.5%;
+        border-radius: 25px;
+        cursor: pointer;
+      "
+    >
+      Renew facebook token
+    </a>
+  </td>
+</tr>
